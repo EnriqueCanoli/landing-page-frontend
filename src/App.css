@@ -136,7 +136,7 @@
 }
 
 .hero-title {
-  font-size: clamp(50px, 2.4vw, 34px);
+  font-size: clamp(26px, 5.5vw, 54px);
   font-weight: 700;
   line-height: 1.2;
   color: var(--white);
@@ -303,7 +303,6 @@
   color: var(--gray-800);
   margin: 0 auto;
   line-height: 1.2;
-  white-space: nowrap;
 }
 
 /* ── Two-card grid ─────────────────────────────────────── */
@@ -1093,5 +1092,47 @@
   .lead-form-card,
   .lead-form-success {
     padding: 32px 24px;
+  }
+
+  .hero-badge {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+
+  .hero-title {
+    margin-bottom: 24px;
+  }
+
+  .hero-subtitle {
+    font-size: var(--text-base);
+    margin-bottom: 32px;
+  }
+
+  .contact-info-value {
+    word-break: break-all;
+  }
+
+  /* ── Form page — mobile ── */
+  .lead-form-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .lead-form-header {
+    margin-bottom: 32px;
+  }
+
+  .lead-form-divider {
+    margin: 20px 0;
+  }
+
+  .lead-form-submit-wrap {
+    margin-top: 24px;
+  }
+
+  .lead-form-submit-wrap .btn,
+  .lead-form-success .btn-outline-primary {
+    width: 100%;
+    justify-content: center;
   }
 }
