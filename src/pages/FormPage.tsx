@@ -21,7 +21,7 @@ const FormPage = () => {
           Volver
         </button>
 
-        <span className="form-page-brand">Centro de Entrenamiento Físico Senior</span>
+        <span className="form-page-brand">Centro de Movimiento Funcional Senior</span>
       </header>
 
       {/* Formulario */}

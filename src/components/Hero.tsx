@@ -9,7 +9,7 @@ const Hero = () => {
         {/* Badge */}
         <div className="hero-badge">
           <span className="hero-badge-dot" aria-hidden="true" />
-          Centro de Entrenamiento físico senior
+          Centro de Movimiento Funcional Senior
         </div>
 
         {/* Título full-width — fuera del bloque restringido */}
@@ -20,7 +20,7 @@ const Hero = () => {
         {/* Subtítulo y CTA — restringidos */}
         <div className="hero-content">
           <p className="hero-subtitle">
-            Te ofrecemos un programa progresivo para mejorar tu movilidad, equilibrio y fuerza
+            Te ofrecemos un programa funcional para mejorar tu movilidad, equilibrio y fuerza
           </p>
 
           <div className="hero-actions">

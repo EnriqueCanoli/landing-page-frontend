@@ -17,8 +17,8 @@ const Empathy = () => {
           <div className="empathy-badge-float" aria-label="Programa especializado en adultos mayores">
             <div className="empathy-badge-float-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                <polyline points="22 4 12 14.01 9 11.01"/>
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
               </svg>
             </div>
             <div className="empathy-badge-float-text">
@@ -33,15 +33,16 @@ const Empathy = () => {
           <span className="section-label">Nos preocupamos por ti</span>
 
           <p className="empathy-paragraph">
-            Entendemos que los años pesan y que, con el tiempo, moverse, caminar o incluso permanecer de pie puede volverse más difícil.
+            Sabemos que con el paso del tiempo moverse puede volverse más desafiante.
           </p>
 
           <p className="empathy-paragraph">
-            Pedir ayuda puede generar incomodidad, como si significara perder independencia. Pero aceptar apoyo no te quita valor; al contrario, es un paso hacia tu bienestar.
+            Aceptar apoyo no significa perder independencia, sino cuidarte y seguir avanzando.
           </p>
 
           <p className="empathy-paragraph">
-            Por eso hemos creado un programa progresivo enfocado en adultos mayores, con evaluaciones periódicas que nos permiten dar seguimiento a tus avances y acompañarte en cada etapa.
+
+            Por eso creamos un programa funcional para adultos +60, con seguimiento personalizado y evaluaciones periódicas que nos permiten acompañarte en cada paso.
           </p>
         </div>
       </div>

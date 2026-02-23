@@ -5,27 +5,25 @@ const Program = () => {
   const navigate = useNavigate()
 
   return (
-    <section className="program" aria-label="Programa Progresivo Senior">
+    <section className="program" aria-label="Programa Funcional Senior">
       <div className="program-inner">
 
         {/* Columna izquierda: texto + CTA */}
         <div className="program-text-col">
           <span className="section-label">Lo que ofrecemos</span>
 
-          <h2 className="program-title">Programa Progresivo Senior</h2>
+          <h2 className="program-title">Programa Funcional Senior</h2>
 
           <div className="program-paragraphs">
             <p className="program-paragraph">
-              Es un espacio dedicado a que las personas adultas mayores entrenen y construyan comunidad
-              para mejorar su calidad de vida. Asisten a clases grupales diseñadas por un fisioterapeuta
-              especializado en esta etapa de la vida, enfocadas en fortalecer la movilidad, el equilibrio
-              y la fuerza.
+              Es un espacio diseñado para que personas +60 recuperen y fortalezcan su movilidad, equilibrio y fuerza, mientras comparten y construyen comunidad.
             </p>
 
             <p className="program-paragraph">
-              Antes de integrarse a un grupo, a cada persona se le realiza una evaluación física. Esta
-              valoración nos permite conocer su condición y necesidades específicas, para asignarle
-              ejercicios adecuados a su perfil, garantizando así un entrenamiento seguro y efectivo.
+              Las clases son grupales, guiadas por un fisioterapeuta especializado en esta etapa de la vida, y organizadas en grupos específicos según las necesidades y capacidades de cada persona. Así, cada participante entrena a su propio nivel, de forma segura y efectiva.
+            </p>
+            <p className="program-paragraph">
+            Antes de integrarse, realizamos una evaluación física personalizada que nos permite conocer su condición y diseñar un plan adecuado a su perfil, asegurando avances reales y un acompañamiento cercano en cada paso.
             </p>
           </div>
 
