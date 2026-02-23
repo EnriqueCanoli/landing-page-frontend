@@ -1,5 +1,6 @@
 import axios from 'axios'
-import { ChangeEvent, FormEvent, useState } from 'react'
+import { useState } from 'react'
+import type { ChangeEvent, FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 interface LeadFormData {
