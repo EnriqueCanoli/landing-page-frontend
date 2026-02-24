@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
 
           <ul className="contact-info-list" aria-label="Datos de contacto">
-            <li className="contact-info-item">
+           {/* <li className="contact-info-item">
               <div className="contact-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
@@ -24,7 +24,7 @@ const Contact = () => {
                 <span className="contact-info-label">Nombre</span>
                 <span className="contact-info-value">Luis Enrique Canales</span>
               </div>
-            </li>
+            </li>*/}
 
             <li className="contact-info-item">
               <div className="contact-icon" aria-hidden="true">
