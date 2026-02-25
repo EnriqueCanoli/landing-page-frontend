@@ -14,13 +14,13 @@ const Hero = () => {
 
         {/* Título full-width — fuera del bloque restringido */}
         <h1 className="hero-title">
-          Mantente independiente y activo para seguir disfrutando tu vida sin depender de nadie
+          Mantente independiente y activo después de los 60
         </h1>
 
         {/* Subtítulo y CTA — restringidos */}
         <div className="hero-content">
           <p className="hero-subtitle">
-            Te ofrecemos un programa funcional para mejorar tu movilidad, equilibrio y fuerza
+            Ayudamos a adultos mayores de 60 años a recuperar y mejorar su movilidad, equilibrio y fuerza para que sigan viviendo sin depender de nadie
           </p>
 
           <div className="hero-actions">
