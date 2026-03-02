@@ -16,7 +16,7 @@ const Program = () => {
 
           <div className="program-paragraphs">
             <p className="program-paragraph">
-              Es un espacio diseñado para que personas +60 recuperen y fortalezcan su movilidad, equilibrio y fuerza, mientras comparten y construyen comunidad.
+              Es un espacio diseñado para que personas +60 mantengan y trabajen activamente su movilidad, equilibrio y fuerza, mientras comparten y construyen comunidad.
             </p>
 
             <p className="program-paragraph">
