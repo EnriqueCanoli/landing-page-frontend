@@ -20,7 +20,7 @@ const Hero = () => {
         {/* Subtítulo y CTA — restringidos */}
         <div className="hero-content">
           <p className="hero-subtitle">
-            Ayudamos a adultos mayores de 60 años a mantener su movilidad, equilibrio y fuerza para que sigan viviendo sin depender de nadie
+            Ayudamos a adultos mayores de 60 años a mantener su movilidad, equilibrio y fuerza para que sigan viviendo sin depender de sus hijos
           </p>
 
           <div className="hero-actions">
