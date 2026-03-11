@@ -11,8 +11,8 @@ const LandingPage = () => {
       <Hero />
       <Empathy />
       <Program />
-      <Steps />
       <Consequences />
+      <Steps />
       <Contact />
     </div>
   )

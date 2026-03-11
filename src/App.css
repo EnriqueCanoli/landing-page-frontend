@@ -273,22 +273,17 @@
    CONSEQUENCES SECTION
 ───────────────────────────────────────────────────────── */
 .consequences {
-  padding: var(--section-py) var(--container-px);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 48px var(--container-px);
   background: linear-gradient(150deg, #DAEEF8 0%, #C4E2F4 100%);
   position: relative;
   overflow: hidden;
 }
 
-.consequences-inner {
-  position: relative;
-  z-index: 1;
-  max-width: var(--container-max);
-  margin: 0 auto;
-}
-
 .consequences-header {
   text-align: center;
-  margin-bottom: 56px;
 }
 
 .consequences-header .section-label {
@@ -304,59 +299,79 @@
   line-height: 1.2;
 }
 
-/* ── Two-card grid ─────────────────────────────────────── */
-.consequences-cards-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-  align-items: stretch;
-}
-
-.consequences-card {
-  background: var(--white);
-  border: 1.5px solid rgba(21,115,162,0.18);
-  border-radius: var(--radius-xl);
-  padding: 40px 36px;
+.consequences-inner {
+  position: relative;
+  z-index: 1;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  box-shadow: var(--shadow-sm);
+  align-items: center;
+  gap: 40px;
+}
+
+/* Párrafo narrativo — 3/4 del ancho, centrado */
+.consequences-narrative {
+  max-width: 75%;
+  font-size: var(--text-lg);
+  color: var(--gray-700);
+  line-height: 1.85;
+  text-align: center;
+}
+
+/* Estadística impactante */
+.consequences-stat-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
 }
 
 .consequences-stat-number {
   display: block;
   font-family: var(--font-display);
-  font-size: var(--text-5xl);
+  font-size: clamp(var(--text-4xl), 6vw, 80px);
   font-weight: 800;
   color: var(--secondary);
   line-height: 1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
-.consequences-card-text {
-  font-size: var(--text-lg);
-  color: var(--gray-600);
-  line-height: 1.8;
+.consequences-stat-text {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--gray-700);
+  line-height: 1.4;
 }
 
-.consequences-card-text strong {
-  color: var(--gray-800);
+/* Bloque de prevención */
+.consequences-prevent-block {
+  background: var(--white);
+  border: 1.5px solid rgba(21,115,162,0.18);
+  border-radius: var(--radius-xl);
+  padding: 28px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+  max-width: 560px;
 }
 
-.consequences-lead {
-  font-size: var(--text-lg);
-  color: var(--gray-600);
-  line-height: 1.8;
-}
-
-.consequences-lead strong {
-  color: var(--gray-800);
+.consequences-prevent-label {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary-dark);
 }
 
 .consequences-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
 .consequences-list-item {
@@ -365,7 +380,7 @@
   gap: 14px;
   font-size: var(--text-base);
   color: var(--gray-700);
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 .consequences-list-item-icon {
@@ -448,6 +463,51 @@
   font-size: var(--text-base);
   color: var(--gray-600);
   line-height: 1.75;
+}
+
+.program-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.program-benefits-label {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+}
+
+.program-benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.program-benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: var(--text-base);
+  color: var(--gray-600);
+  line-height: 1.65;
+}
+
+.program-benefit-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--primary-pale);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
 }
 
 /* ── Imagen — altura proporcional al viewport ── */

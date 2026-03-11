@@ -12,21 +12,21 @@ const steps: Step[] = [
   },
   {
     number: 2,
-    title: 'Te contactamos personalmente',
+    title: 'Hablamos personalmente contigo',
     description:
-      'Nuestro equipo se comunicará contigo por WhatsApp o correo electrónico para resolver tus dudas y explicarte como funciona el programa.',
+      'Te contactamos por WhatsApp o correo electrónico para resolver tus dudas antes de que vengas',
   },
   {
     number: 3,
-    title: 'Realiza tu evaluación física personalizada',
+    title: 'Tu evaluación con el fisioterapeuta',
     description:
-      'Un fisioterapeuta especializado en adultos mayores realizará una evaluación profesional para conocer tu condición actual.',
+      'Un profesional realizará una evaluación para conocer tu condición actual.',
   },
   {
     number: 4,
-    title: 'Asiste a tus 2 días de prueba gratis',
+    title: '2 días de prueba — tú decides',
     description:
-      'Ven, conoce el ambiente, prueba las sesiones y experimenta cómo se siente comenzar a recuperar tu energía y confianza.',
+      'Ven, muévete, conoce el ambiente. Sin pagar nada. Si no es para ti, no hay problema',
   },
 ]
 
@@ -62,7 +62,7 @@ const Steps = () => {
 
         <div className="steps-cta-wrap">
           <button className="btn btn-primary" onClick={() => navigate('/formulario')} aria-label="Comenzar ahora — ir al formulario">
-            Comenzar ahora
+            Quiero mis 2 días de prueba gratis
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12"/>
               <polyline points="12 5 19 12 12 19"/>

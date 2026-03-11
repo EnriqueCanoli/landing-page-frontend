@@ -33,16 +33,15 @@ const Empathy = () => {
           <span className="section-label">Nos preocupamos por ti</span>
 
           <p className="empathy-paragraph">
-            Sabemos que con el paso del tiempo moverse puede volverse más desafiante.
+            Sabemos lo que se siente llegar a un punto en que subir escaleras duele, o que dependes de alguien para hacer cosas que antes hacías solo.
           </p>
 
           <p className="empathy-paragraph">
-            Aceptar apoyo no significa perder independencia, sino cuidarte y seguir avanzando.
+            Esa sensación de perder tu autonomía es una de las cosas más difíciles de aceptar. Y lo peor es creer que ya es inevitable
           </p>
 
           <p className="empathy-paragraph">
-
-            Por eso creamos un programa funcional para adultos +60, con seguimiento personalizado y evaluaciones periódicas que nos permiten acompañarte en cada paso.
+            No lo es. Por eso existe este centro, con fisioterapeutas especializados en adultos mayores que acompañan a cientos de personas a mantener exactamente eso — su independencia
           </p>
         </div>
       </div>

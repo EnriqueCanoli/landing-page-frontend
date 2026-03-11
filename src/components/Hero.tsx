@@ -14,18 +14,18 @@ const Hero = () => {
 
         {/* Título full-width — fuera del bloque restringido */}
         <h1 className="hero-title">
-          Mantente independiente y activo después de los 60
+          Los años no te quitaron tu independencia. La inactividad sí
         </h1>
 
         {/* Subtítulo y CTA — restringidos */}
         <div className="hero-content">
           <p className="hero-subtitle">
-            Ayudamos a adultos mayores de 60 años a mantener su movilidad, equilibrio y fuerza para que sigan viviendo sin depender de sus hijos
+          Ayudamos a personas +60 a mantener la movilidad, el equilibrio y la fuerza  — con un plan diseñado para sus necesidades específicas, guiado por un fisioterapeuta
           </p>
 
           <div className="hero-actions">
             <button className="btn btn-primary" onClick={() => navigate('/formulario')} aria-label="Comenzar ahora — ir al formulario">
-              Comenzar ahora
+              Quiero mis 2 días de prueba gratis
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <line x1="5" y1="12" x2="19" y2="12"/>
                 <polyline points="12 5 19 12 12 19"/>
